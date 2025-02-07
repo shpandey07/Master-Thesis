@@ -47,8 +47,3 @@ When should we use which database (guidelines)?
 - Python scripts with libraries as connectors
 - Databases on database servers
 
-Contact
-
-- Sc. Daniel Walke - daniel.walke@ovgu.de
-- Prof. Dr-Ing. Robert Heyer - robert.heyer@isas.de
-- Ing. David Broneske - david.bronseke@ovgu.de
