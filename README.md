@@ -15,7 +15,6 @@ In many domains, like biology, data is highly interconnected (e.g., interacting 
 - Which database is most performant on CRUD operations (especially read operations) in terms of time and space requirements?
 - How does introducing indexes change time and space requirements for CRUD operations?
 - Which limitations exist when querying high-connected data (oversmoothing with low number of „hops“, high performance loss, high space requirements despite batching by querying complete graph with low number of „hops“)?
-- (Is it possible to further increase the performance (e.g., parallelized access using multiple threads or denormalized tables)?)
 
 When should we use which database (guidelines)?
 
@@ -28,7 +27,7 @@ When should we use which database (guidelines)?
 
 **Dataset**
 
-- Synthetic dataset with m (1,000; 100,000; 1,000,000) nodes (every node has n (5; 10; 20) edges) (Another test with 30,000 nodes and 10,000 edges per node)
+- Synthetic dataset with m (1,000; 10,000, 100,000; 1,000,000) nodes (every node has n (5; 10; 20) edges)
 - Protein-protein interaction dataset (OGB benchmark, PyG) – easy to understand, biological, connections are important (important for graph and JOIN evaluation), easy to access ([**https://ogb.stanford.edu/docs/nodeprop/**](https://ogb.stanford.edu/docs/nodeprop/)) (**https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.PPI.html#torch_geometric.datasets.PPI**)
 
 **Operations**
